@@ -1,16 +1,16 @@
 {
-  "name": "nodebb-plugin-sso-google",
+  "name": "nodebb-plugin-sso-kakao",
   "version": "3.1.0",
-  "description": "NodeBB Google SSO",
+  "description": "NodeBB Kakao SSO",
   "main": "library.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/julianlam/nodebb-plugin-sso-google"
+    "url": "https://github.com/axfree/nodebb-plugin-sso-kakao"
   },
   "keywords": [
     "nodebb",
     "plugin",
-    "google",
+    "kakao",
     "sso",
     "single sign on",
     "registration"
@@ -21,13 +21,13 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/julianlam/nodebb-plugin-sso-google/issues"
+    "url": "https://github.com/axfree/nodebb-plugin-sso-kakao/issues"
   },
   "readme": "",
   "readmeFilename": "README.md",
   "dependencies": {
     "eslint-config-nodebb": "0.1.1",
-    "passport-google-oauth20": "^1.0.0"
+    "passport-kakao": "^1.0.0"
   },
   "nbbpm": {
     "compatibility": "^3.2.0"
